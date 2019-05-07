@@ -30,26 +30,31 @@ changeSelected(current,id){
   document.getElementById("icon-1").classList.toggle("rotate",id!==1);
   document.getElementById("title-1").classList.toggle("rotate",id!==1);
   document.getElementById("title-1").classList.toggle("rt",id!==1);
+     document.getElementById("icon-1").classList.toggle("ri",id!==1);
 
   document.getElementById("second-panel").classList.toggle("selected",id===2);
   document.getElementById("content-panel-2").classList.toggle("hide",id!==2);
    document.getElementById("icon-2").classList.toggle("sm-icon",id===2);
    document.getElementById("icon-2").classList.toggle("rotate",id!==2);
    document.getElementById("title-2").classList.toggle("rotate",id!==2);
-  document.getElementById("title-1").classList.toggle("rt",id!==1);
+  document.getElementById("title-2").classList.toggle("rt",id!==2);
+     document.getElementById("icon-2").classList.toggle("ri",id!==2);
 
   document.getElementById("third-panel").classList.toggle("selected",id===3);
   document.getElementById("content-panel-3").classList.toggle("hide",id!==3);
   document.getElementById("icon-3").classList.toggle("sm-icon",id===3);
   document.getElementById("icon-3").classList.toggle("rotate",id!==3);
   document.getElementById("title-3").classList.toggle("rotate",id!==3);
-  document.getElementById("title-1").classList.toggle("rt",id!==1);
+  document.getElementById("title-3").classList.toggle("rt",id!==3);
+     document.getElementById("icon-3").classList.toggle("ri",id!==3);
 
   document.getElementById("fourth-panel").classList.toggle("selected",id===4);
   document.getElementById("content-panel-4").classList.toggle("hide",id!==4);
  document.getElementById("icon-4").classList.toggle("sm-icon",id===4);
  document.getElementById("icon-4").classList.toggle("rotate",id!==4);
    document.getElementById("title-4").classList.toggle("rotate",id!==4);
+   document.getElementById("title-4").classList.toggle("rt",id!==4);
+   document.getElementById("icon-4").classList.toggle("ri",id!==4);
   
 }
 

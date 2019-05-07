@@ -11,9 +11,6 @@ p {
   height: inherit;
 }
 
-.container-fluid{
-  background: blue;
-}
 
 .container{
   
@@ -105,13 +102,23 @@ box-shadow: 0px 10px 34px -8px rgba(0,0,0,0.75);
     transform: rotate(-90deg);
     width: 100px;
     text-align: right;
+    -webkit-transition: transform 0.5s; /* Safari */
+    transition: transform 0.5s;
+   
   }
 
   /*rotated title*/
   .rt{
-    
+    white-space: nowrap;
+    margin-top: 30vh;
+    margin-left:-20px;
   }
 
+  .ri{
+    width: 15vw;
+    animation-name: text-appear;
+  animation-duration: 0.7s;
+  }
 
 }
 
